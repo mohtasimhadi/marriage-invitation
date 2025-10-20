@@ -14,7 +14,6 @@ type Slide = {
 };
 
 const slides: Slide[] = [
-  { key: "mehedi", label: "মেহেদী", node: <Mehedi /> },
   { key: "wedding", label: "বিবাহ", node: <Wedding /> },
   { key: "reception", label: "রিসেপশন", node: <Reception /> },
 ];
