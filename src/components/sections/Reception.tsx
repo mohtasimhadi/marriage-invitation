@@ -11,7 +11,7 @@ import { AButton } from "@/components/ui/Button";
 import { bnFont } from "@/components/theme";
 
 export default function Reception() {
-  const targetDate = useMemo(() => new Date("2025-12-28T13:30:00+06:00"), []);
+  const targetDate = useMemo(() => new Date("2025-12-28T13:00:00+06:00"), []);
   const [now, setNow] = useState<Date>(new Date());
 
   useEffect(() => {

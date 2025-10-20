@@ -16,7 +16,7 @@ export default function Invitation() {
           {/* Left: Invitation Text */}
           <div className="text-white leading-relaxed text-lg md:text-xl p-4 md:p-6 flex flex-col justify-center">
             <p className="whitespace-pre-line mb-8" style={{ fontFamily: bnFont }}>
-              বিয়ের পিঁড়িতে বসছি। আপনি আসবেন, আনন্দ কল্লোল তুলবেন। আমন্ত্রণ নয়, অধিকার!
+              আমাদের বিয়েতে আপনি আসবেন, আনন্দ হিল্লোল তুলবেন।{"\n"}আমন্ত্রণ নয়, অধিকার!
             </p>
 
             {/* Signature */}

@@ -11,7 +11,7 @@ import { AButton } from "@/components/ui/Button";
 import { bnFont } from "@/components/theme";
 
 export default function Wedding() {
-  const targetDate = useMemo(() => new Date("2025-12-24T19:30:00+06:00"), []);
+  const targetDate = useMemo(() => new Date("2025-12-24T19:00:00+06:00"), []);
   const [now, setNow] = useState<Date>(new Date());
 
   useEffect(() => {
